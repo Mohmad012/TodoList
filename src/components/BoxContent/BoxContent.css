@@ -1,0 +1,32 @@
+.BoxContent
+{
+	width: 50%;
+	min-height: 1000px;
+	background-color: #383838;
+	margin: auto;
+	border-radius: 6px;
+}
+
+@media(min-width: 1025px){
+	.BoxContent
+	{
+		/*width: 90%;*/
+	    min-height: calc(100vh - 20%);
+	}	
+}
+
+@media(max-width: 1024px){
+	.BoxContent
+	{
+		width: 90%;
+	    min-height: calc(100vh - 20%);
+	}	
+}
+
+@media(max-width: 768px){
+	.BoxContent
+	{
+		width: 90%;
+	    min-height: calc(100vh - 20%);
+	}	
+}

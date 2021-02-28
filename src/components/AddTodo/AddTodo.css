@@ -1,0 +1,127 @@
+.AddTodo
+{
+	background-image:linear-gradient(to left, #009688, #383838);
+    border-radius: 6px 6px 0 0;
+}
+.AddTodo > div
+{
+	display: flex;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.AddTodo > div button
+{
+	flex: 2;
+	padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #e24461;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+@media(max-width: 767px){
+	.AddTodo > div button
+	{
+		font-size: 13px;
+	}	
+}
+
+.AddTodo > div input[type="text"]
+{
+	flex: 8;
+	padding: 10px;
+}
+
+@media(max-width: 767px){
+	.AddTodo > div input[type="text"]
+	{
+		width: 110px;
+	}	
+}
+
+.AddTodo > div input[type="text"]:focus
+{
+	outline: none;
+}
+
+.AddTodo > div input[type="text"]:focus::-webkit-input-placeholder
+{
+	opacity: 0;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
+}
+
+.AddTodo > div input[type="text"]:focus::-ms-input-placeholder
+{
+	opacity: 0;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
+}
+
+.AddTodo > div input[type="text"]::placeholder
+{
+	font-size: 16px;
+}
+
+@media(max-width: 767px){
+	.AddTodo > div input[type="text"]::placeholder
+	{
+		font-size: 13px;
+	}	
+}
+
+.AddTodo > div input[type="text"]:focus::placeholder
+{
+	opacity: 0;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
+}
+
+.AddTodo > div div
+{
+	flex: 1;
+	padding: 10px;
+	margin: auto;
+}
+
+.AddTodo > div div span
+{
+	background-color: transparent;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+@media(max-width: 767px){
+	.AddTodo > div div span
+	{
+		border-width: 2px
+	}	
+}
+
+.AddTodo > div div span:after
+{
+	font-family: 'FontAwesome';
+	content:"\f00c";
+	display: inline-block;
+	color: #000;
+	font-size: 30px;
+	position: absolute;
+	bottom: -3px;
+    left: 0px;
+}
+
+/*.AddTodo > div span div*/

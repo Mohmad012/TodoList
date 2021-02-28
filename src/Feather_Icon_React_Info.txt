@@ -1,0 +1,6 @@
+Feather Icon Site ==> https://feathericons.com/
+
+
+Feather React Icon Site ==> https://www.npmjs.com/package/feather-icons-react
+
+Feather React Icon Install Command ==> npm install --save feather-icons-react

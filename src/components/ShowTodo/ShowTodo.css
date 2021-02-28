@@ -1,0 +1,97 @@
+.ShowTodo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-image:linear-gradient(to left, #009688, #383838);
+	padding: 20px;
+	line-height: 100%;
+}
+
+.ShowTodo div:first-of-type
+{
+	color: #fff;
+}
+
+.ShowTodo div:first-of-type i:not(:last-child)
+{
+	margin-right: 15px;
+	color: #e24461;
+}
+
+.ShowTodo div:first-of-type i
+{
+	cursor: pointer;
+}
+
+.ShowTodo div:first-of-type i:last-child
+{
+	color: #ff9800;	
+}
+
+.ShowTodo div:last-of-type
+{
+	margin-right: 3px;
+
+}
+
+@media(max-width: 767px){
+	.ShowTodo div:last-of-type
+	{
+		margin-right: -8px;
+	}	
+}
+
+.ShowTodo div:last-of-type > span
+{
+	margin-right: 10px;
+	display: inline-block;
+	color: #fff;
+	margin-top: -10px;
+}
+
+@media(max-width: 767px){
+	.ShowTodo div:last-of-type > span
+	{
+		font-size: 13px
+
+	}	
+}
+
+.ShowTodo div:last-of-type > div
+{
+	display: inline-block;
+}
+
+.ShowTodo div:last-of-type > div span
+{
+	background-color: transparent;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	color: #fff;
+	cursor: pointer;
+}
+
+@media(max-width: 767px){
+	.ShowTodo div:last-of-type > div span
+	{
+		border-width: 2px;
+
+	}	
+}
+
+.ShowTodo div:last-of-type > div span:after
+{
+	font-family: 'FontAwesome';
+	content:"\f00c";
+	display: inline-block;
+	color: #000;
+	font-size: 30px;
+	position: absolute;
+    bottom: 5px;
+    left: 0px;
+}

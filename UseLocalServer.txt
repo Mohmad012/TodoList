@@ -1,0 +1,5 @@
+If The Package Is Not Found ==>  sudo npm install -g serve
+
+To Open The Local Server For Your Project Wright This Command ===> serve -s Name_Folder_That_Has_ThePrject
+
+Example ===> serve -s web_pure_Javascript
